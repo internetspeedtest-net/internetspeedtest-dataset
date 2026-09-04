@@ -1,0 +1,729 @@
+{
+    "schema_version": "1.0",
+    "report_version": "2026-02",
+    "generated_at": "2026-09-04T14:21:47+00:00",
+    "measurement_window_start": "2026-02-01T00:00:00+00:00",
+    "measurement_window_end": "2026-03-01T00:00:00+00:00",
+    "timezone": "UTC",
+    "measurement_engine": "LibreSpeed",
+    "total_valid_tests": 2205,
+    "total_excluded_tests": 49,
+    "minimum_country_sample_size": 30,
+    "minimum_isp_sample_size": 20,
+    "methodology": {
+        "percentile_method": "linear_interpolation",
+        "exclusions": [
+            "Rows with a missing, empty, or failed ISP lookup are excluded.",
+            "A zero value for a given metric (download, upload, or ping) excludes that row from that metric's statistics only \u2014 it does not disqualify the row's other valid metrics.",
+            "Country and ISP breakdowns additionally require a minimum sample size (see minimum_country_sample_size / minimum_isp_sample_size) before being published, to avoid misleadingly precise statistics from a handful of tests."
+        ],
+        "country_code_caveat": "Country and ISP (provider) attribution are self-reported by the client at test time via a third-party IP-lookup service, not independently verified. These are measurements observed by internetspeedtest.net, not a statistically representative national broadband sample."
+    },
+    "global": {
+        "download": {
+            "sample_count": 2145,
+            "average": 189.42,
+            "median": 83.54,
+            "p25": 27.63,
+            "p75": 235.13
+        },
+        "upload": {
+            "sample_count": 2079,
+            "average": 92.74,
+            "median": 36.61,
+            "p25": 14.6,
+            "p75": 95.55
+        },
+        "ping": {
+            "sample_count": 2198,
+            "average": 79.26,
+            "median": 59,
+            "p25": 32,
+            "p75": 95
+        }
+    },
+    "countries": [
+        {
+            "code": "US",
+            "sample_count": 521,
+            "download": {
+                "sample_count": 512,
+                "average": 332.32,
+                "median": 198.69,
+                "p25": 69.62,
+                "p75": 455.46
+            },
+            "upload": {
+                "sample_count": 498,
+                "average": 107.99,
+                "median": 34.29,
+                "p25": 18.9,
+                "p75": 95.4
+            },
+            "ping": {
+                "sample_count": 521,
+                "average": 38.83,
+                "median": 31,
+                "p25": 22,
+                "p75": 48
+            }
+        },
+        {
+            "code": "MX",
+            "sample_count": 212,
+            "download": {
+                "sample_count": 206,
+                "average": 98.25,
+                "median": 70.12,
+                "p25": 19.86,
+                "p75": 109.29
+            },
+            "upload": {
+                "sample_count": 200,
+                "average": 72.83,
+                "median": 34.93,
+                "p25": 9.62,
+                "p75": 88.45
+            },
+            "ping": {
+                "sample_count": 212,
+                "average": 67.62,
+                "median": 61.5,
+                "p25": 52,
+                "p75": 79
+            }
+        },
+        {
+            "code": "ID",
+            "sample_count": 178,
+            "download": {
+                "sample_count": 168,
+                "average": 43.29,
+                "median": 28.27,
+                "p25": 13.24,
+                "p75": 49.69
+            },
+            "upload": {
+                "sample_count": 157,
+                "average": 32.44,
+                "median": 18.11,
+                "p25": 6.9,
+                "p75": 35.7
+            },
+            "ping": {
+                "sample_count": 178,
+                "average": 144.92,
+                "median": 108,
+                "p25": 77,
+                "p75": 218.5
+            }
+        },
+        {
+            "code": "ES",
+            "sample_count": 112,
+            "download": {
+                "sample_count": 104,
+                "average": 193.71,
+                "median": 98.38,
+                "p25": 44.66,
+                "p75": 287.94
+            },
+            "upload": {
+                "sample_count": 102,
+                "average": 123.42,
+                "median": 90.34,
+                "p25": 36.37,
+                "p75": 158.12
+            },
+            "ping": {
+                "sample_count": 112,
+                "average": 49.74,
+                "median": 47,
+                "p25": 40,
+                "p75": 55
+            }
+        },
+        {
+            "code": "AU",
+            "sample_count": 68,
+            "download": {
+                "sample_count": 67,
+                "average": 69.3,
+                "median": 29.53,
+                "p25": 15.47,
+                "p75": 46.69
+            },
+            "upload": {
+                "sample_count": 66,
+                "average": 22.72,
+                "median": 14.94,
+                "p25": 5.75,
+                "p75": 34.51
+            },
+            "ping": {
+                "sample_count": 68,
+                "average": 193.84,
+                "median": 162,
+                "p25": 159.75,
+                "p75": 263.25
+            }
+        },
+        {
+            "code": "FR",
+            "sample_count": 62,
+            "download": {
+                "sample_count": 62,
+                "average": 293.76,
+                "median": 231.87,
+                "p25": 38.44,
+                "p75": 447.22
+            },
+            "upload": {
+                "sample_count": 61,
+                "average": 209.23,
+                "median": 88.88,
+                "p25": 41.63,
+                "p75": 284.88
+            },
+            "ping": {
+                "sample_count": 62,
+                "average": 39.32,
+                "median": 23,
+                "p25": 19.25,
+                "p75": 31
+            }
+        },
+        {
+            "code": "CO",
+            "sample_count": 58,
+            "download": {
+                "sample_count": 57,
+                "average": 169.57,
+                "median": 108.64,
+                "p25": 31.97,
+                "p75": 272.67
+            },
+            "upload": {
+                "sample_count": 54,
+                "average": 113.61,
+                "median": 70.7,
+                "p25": 27.52,
+                "p75": 187.18
+            },
+            "ping": {
+                "sample_count": 58,
+                "average": 91.98,
+                "median": 82.5,
+                "p25": 68.25,
+                "p75": 97
+            }
+        },
+        {
+            "code": "PE",
+            "sample_count": 56,
+            "download": {
+                "sample_count": 54,
+                "average": 147.38,
+                "median": 65.56,
+                "p25": 17.21,
+                "p75": 184.74
+            },
+            "upload": {
+                "sample_count": 51,
+                "average": 77.9,
+                "median": 46.28,
+                "p25": 11.44,
+                "p75": 109.27
+            },
+            "ping": {
+                "sample_count": 56,
+                "average": 103.95,
+                "median": 99.5,
+                "p25": 93.75,
+                "p75": 109.5
+            }
+        },
+        {
+            "code": "GB",
+            "sample_count": 55,
+            "download": {
+                "sample_count": 55,
+                "average": 105.3,
+                "median": 71.31,
+                "p25": 11.73,
+                "p75": 139.7
+            },
+            "upload": {
+                "sample_count": 54,
+                "average": 22.84,
+                "median": 16.58,
+                "p25": 5.46,
+                "p75": 30.25
+            },
+            "ping": {
+                "sample_count": 55,
+                "average": 80.76,
+                "median": 36,
+                "p25": 20.5,
+                "p75": 55.5
+            }
+        },
+        {
+            "code": "CA",
+            "sample_count": 48,
+            "download": {
+                "sample_count": 48,
+                "average": 190.78,
+                "median": 99.21,
+                "p25": 57.47,
+                "p75": 262.92
+            },
+            "upload": {
+                "sample_count": 48,
+                "average": 84.39,
+                "median": 26.83,
+                "p25": 10.27,
+                "p75": 55.94
+            },
+            "ping": {
+                "sample_count": 48,
+                "average": 40.46,
+                "median": 34,
+                "p25": 25.5,
+                "p75": 46
+            }
+        },
+        {
+            "code": "CL",
+            "sample_count": 46,
+            "download": {
+                "sample_count": 45,
+                "average": 98.54,
+                "median": 97.04,
+                "p25": 73.18,
+                "p75": 99.95
+            },
+            "upload": {
+                "sample_count": 45,
+                "average": 57.45,
+                "median": 40.83,
+                "p25": 35.58,
+                "p75": 71.83
+            },
+            "ping": {
+                "sample_count": 46,
+                "average": 150.13,
+                "median": 127,
+                "p25": 124,
+                "p75": 162.75
+            }
+        }
+    ],
+    "isps": [
+        {
+            "slug": "frontier",
+            "name": "Frontier",
+            "country": "US",
+            "sample_count": 28,
+            "download": {
+                "sample_count": 28,
+                "average": 532.05,
+                "median": 331.51,
+                "p25": 143.54,
+                "p75": 598.16
+            },
+            "upload": {
+                "sample_count": 28,
+                "average": 164.73,
+                "median": 99.97,
+                "p25": 41.06,
+                "p75": 155.64
+            },
+            "ping": {
+                "sample_count": 28,
+                "average": 19.36,
+                "median": 17,
+                "p25": 13,
+                "p75": 24
+            }
+        },
+        {
+            "slug": "xfinity",
+            "name": "Xfinity (Comcast)",
+            "country": "US",
+            "sample_count": 88,
+            "download": {
+                "sample_count": 88,
+                "average": 368.66,
+                "median": 241.06,
+                "p25": 98.01,
+                "p75": 566.82
+            },
+            "upload": {
+                "sample_count": 86,
+                "average": 77.5,
+                "median": 43.22,
+                "p25": 26.22,
+                "p75": 102.88
+            },
+            "ping": {
+                "sample_count": 88,
+                "average": 33.36,
+                "median": 31,
+                "p25": 24,
+                "p75": 36
+            }
+        },
+        {
+            "slug": "spectrum",
+            "name": "Spectrum (Charter)",
+            "country": "US",
+            "sample_count": 123,
+            "download": {
+                "sample_count": 121,
+                "average": 328.76,
+                "median": 261.53,
+                "p25": 99.24,
+                "p75": 516.8
+            },
+            "upload": {
+                "sample_count": 119,
+                "average": 59.18,
+                "median": 24.27,
+                "p25": 22.54,
+                "p75": 41.42
+            },
+            "ping": {
+                "sample_count": 123,
+                "average": 37.74,
+                "median": 31,
+                "p25": 26.5,
+                "p75": 38
+            }
+        },
+        {
+            "slug": "tmobile",
+            "name": "T-Mobile",
+            "country": "US",
+            "sample_count": 48,
+            "download": {
+                "sample_count": 47,
+                "average": 274.16,
+                "median": 190.61,
+                "p25": 92.73,
+                "p75": 347.65
+            },
+            "upload": {
+                "sample_count": 47,
+                "average": 33.6,
+                "median": 29.9,
+                "p25": 12.88,
+                "p75": 40.87
+            },
+            "ping": {
+                "sample_count": 48,
+                "average": 48,
+                "median": 41,
+                "p25": 31.5,
+                "p75": 54.25
+            }
+        },
+        {
+            "slug": "att",
+            "name": "AT&T",
+            "country": "US",
+            "sample_count": 57,
+            "download": {
+                "sample_count": 55,
+                "average": 269.32,
+                "median": 247.1,
+                "p25": 58.92,
+                "p75": 433.48
+            },
+            "upload": {
+                "sample_count": 52,
+                "average": 168.13,
+                "median": 81.62,
+                "p25": 22.74,
+                "p75": 241.21
+            },
+            "ping": {
+                "sample_count": 57,
+                "average": 29.23,
+                "median": 26,
+                "p25": 20,
+                "p75": 32
+            }
+        },
+        {
+            "slug": "vodafone-es",
+            "name": "Vodafone Spain",
+            "country": "ES",
+            "sample_count": 23,
+            "download": {
+                "sample_count": 22,
+                "average": 191.88,
+                "median": 98.92,
+                "p25": 54.04,
+                "p75": 248.67
+            },
+            "upload": {
+                "sample_count": 22,
+                "average": 87.35,
+                "median": 78.96,
+                "p25": 51.7,
+                "p75": 100.61
+            },
+            "ping": {
+                "sample_count": 23,
+                "average": 48.87,
+                "median": 49,
+                "p25": 40.5,
+                "p75": 57.5
+            }
+        },
+        {
+            "slug": "orange-es",
+            "name": "Orange Spain",
+            "country": "ES",
+            "sample_count": 21,
+            "download": {
+                "sample_count": 21,
+                "average": 179.21,
+                "median": 138.8,
+                "p25": 54.14,
+                "p75": 279.8
+            },
+            "upload": {
+                "sample_count": 21,
+                "average": 120.26,
+                "median": 49.42,
+                "p25": 35.48,
+                "p75": 163.08
+            },
+            "ping": {
+                "sample_count": 21,
+                "average": 43.81,
+                "median": 43,
+                "p25": 40,
+                "p75": 47
+            }
+        },
+        {
+            "slug": "totalplay",
+            "name": "Totalplay",
+            "country": "MX",
+            "sample_count": 46,
+            "download": {
+                "sample_count": 44,
+                "average": 175.86,
+                "median": 107.08,
+                "p25": 42.35,
+                "p75": 302.78
+            },
+            "upload": {
+                "sample_count": 43,
+                "average": 129.78,
+                "median": 77.39,
+                "p25": 17.2,
+                "p75": 180.48
+            },
+            "ping": {
+                "sample_count": 46,
+                "average": 65.83,
+                "median": 58,
+                "p25": 54,
+                "p75": 70
+            }
+        },
+        {
+            "slug": "verizon",
+            "name": "Verizon",
+            "country": "US",
+            "sample_count": 41,
+            "download": {
+                "sample_count": 40,
+                "average": 140.19,
+                "median": 116.02,
+                "p25": 34.16,
+                "p75": 218.74
+            },
+            "upload": {
+                "sample_count": 40,
+                "average": 77.17,
+                "median": 19.12,
+                "p25": 14.91,
+                "p75": 88.44
+            },
+            "ping": {
+                "sample_count": 41,
+                "average": 44.05,
+                "median": 50,
+                "p25": 15,
+                "p75": 62
+            }
+        },
+        {
+            "slug": "starlink",
+            "name": "Starlink",
+            "country": "US",
+            "sample_count": 39,
+            "download": {
+                "sample_count": 37,
+                "average": 71.94,
+                "median": 44.97,
+                "p25": 14.66,
+                "p75": 120.75
+            },
+            "upload": {
+                "sample_count": 35,
+                "average": 14.71,
+                "median": 16.37,
+                "p25": 7.51,
+                "p75": 19.98
+            },
+            "ping": {
+                "sample_count": 39,
+                "average": 73.51,
+                "median": 64,
+                "p25": 45.5,
+                "p75": 89.5
+            }
+        },
+        {
+            "slug": "telmex",
+            "name": "Telmex (UNINET)",
+            "country": "MX",
+            "sample_count": 59,
+            "download": {
+                "sample_count": 59,
+                "average": 54.42,
+                "median": 34.77,
+                "p25": 10.45,
+                "p75": 83.77
+            },
+            "upload": {
+                "sample_count": 57,
+                "average": 56.7,
+                "median": 41.36,
+                "p25": 24.01,
+                "p75": 79.27
+            },
+            "ping": {
+                "sample_count": 59,
+                "average": 73.9,
+                "median": 65,
+                "p25": 57.5,
+                "p75": 82
+            }
+        },
+        {
+            "slug": "southern-phone",
+            "name": "Southern Phone",
+            "country": "AU",
+            "sample_count": 31,
+            "download": {
+                "sample_count": 30,
+                "average": 41.51,
+                "median": 20.12,
+                "p25": 11.22,
+                "p75": 37.65
+            },
+            "upload": {
+                "sample_count": 30,
+                "average": 29.88,
+                "median": 32.07,
+                "p25": 21.85,
+                "p75": 38.42
+            },
+            "ping": {
+                "sample_count": 31,
+                "average": 159.87,
+                "median": 161,
+                "p25": 160,
+                "p75": 162
+            }
+        },
+        {
+            "slug": "indosat",
+            "name": "Indosat",
+            "country": "ID",
+            "sample_count": 20,
+            "download": {
+                "sample_count": 19,
+                "average": 31.57,
+                "median": 26.58,
+                "p25": 15.37,
+                "p75": 52.45
+            },
+            "upload": {
+                "sample_count": 18,
+                "average": 24.34,
+                "median": 19.96,
+                "p25": 8.36,
+                "p75": 40.34
+            },
+            "ping": {
+                "sample_count": 20,
+                "average": 167.55,
+                "median": 166.5,
+                "p25": 77,
+                "p75": 240.75
+            }
+        },
+        {
+            "slug": "telkom-indonesia",
+            "name": "Telkom Indonesia",
+            "country": "ID",
+            "sample_count": 57,
+            "download": {
+                "sample_count": 52,
+                "average": 31.45,
+                "median": 24.46,
+                "p25": 7.59,
+                "p75": 51.02
+            },
+            "upload": {
+                "sample_count": 44,
+                "average": 26.12,
+                "median": 14.34,
+                "p25": 6.97,
+                "p75": 40.1
+            },
+            "ping": {
+                "sample_count": 57,
+                "average": 150.16,
+                "median": 111,
+                "p25": 72,
+                "p75": 219
+            }
+        },
+        {
+            "slug": "telkomsel",
+            "name": "Telkomsel",
+            "country": "ID",
+            "sample_count": 38,
+            "download": {
+                "sample_count": 37,
+                "average": 30.03,
+                "median": 24.84,
+                "p25": 12.48,
+                "p75": 42.8
+            },
+            "upload": {
+                "sample_count": 36,
+                "average": 14.19,
+                "median": 14.61,
+                "p25": 2.14,
+                "p75": 20.67
+            },
+            "ping": {
+                "sample_count": 38,
+                "average": 171.63,
+                "median": 202.5,
+                "p25": 107.5,
+                "p75": 226.75
+            }
+        }
+    ]
+}
